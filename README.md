@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 ZX AeroSpace – Fibre Drone Propulsion Landing Page
 
-## Getting Started
+A modern, high-performance landing page developed for **ZX AeroSpace**, an Indian aerospace manufacturing brand specializing in **carbon fibre drone propulsion systems** for agricultural and industrial UAVs.
 
-First, run the development server:
+This project focuses on **premium UI/UX**, **smooth animations**, and **brand-focused storytelling**, built to impress OEM clients, enterprise partners, and investors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Project Highlights
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🇮🇳 Showcases **India’s first indigenous carbon fibre drone propulsion**
+- 🎥 Cinematic hero section with **background video**
+- 🎯 Product-focused storytelling with **slider-based banners**
+- 🌀 Smooth scrolling powered by **Lenis**
+- 🎞️ Advanced animations using **Framer Motion**
+- 🎠 Interactive hero slider using **Swiper**
+- 📱 Fully responsive (mobile-first)
+- ⚡ Optimized for performance & SEO
+- 🎨 Clean aerospace-inspired design system
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧱 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Slider:** Swiper.js
+- **Smooth Scroll:** Lenis
+- **Icons:** React Icons
+- **Deployment:** Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🖥️ Website Structure
 
-## Deploy on Vercel
+- Header (Logo, Navigation, CTA)
+- Hero Section (Video background + animated slider)
+- Problem → Solution
+- Product Features
+- Technical Specifications
+- Applications / Use Cases
+- About Company
+- Contact / Lead Capture
+- Footer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎥 Hero Section Features
+
+- Background video with subtle overlay
+- 3-slide animated banner:
+  - Indigenous Manufacturing
+  - Product Highlight (ZX-2480)
+  - Applications & Use Cases
+- Synced text + image transitions
+- Custom pagination dots
+- Auto-play slider with smooth fade effects
+
+---
