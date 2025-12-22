@@ -26,7 +26,7 @@ export default function Hero() {
   };
 
   return (
-    <main className="relative h-screen w-full overflow-hidden bg-[#050505] pt-14 max-sm:h-auto max-sm:pt-0 max-sm:mt-20">
+    <main className="relative h-screen w-full overflow-hidden bg-[#050505] pt-14 max-sm:h-auto max-sm:pt-0 max-sm:mt-20" id="home">
       {/* ===== FULLSCREEN BACKGROUND VIDEO ===== */}
       <div className="absolute inset-0 z-0">
         <video

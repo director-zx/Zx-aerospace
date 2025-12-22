@@ -20,10 +20,12 @@
   --color-zxsoft: var(--zx-soft);
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 .hero-swiper .swiper-pagination-bullet {
@@ -67,6 +69,6 @@ body {
 .swiper-container {
   border-radius: 20px;
 }
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   background: #cacaca !important;
 }

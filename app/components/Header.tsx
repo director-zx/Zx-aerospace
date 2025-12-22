@@ -1,12 +1,12 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { PiFanThin } from "react-icons/pi";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
 const navItems = [
-  { name: "Home", href: "#" },
+  { name: "Home", href: "#home" },
   { name: "Solutions", href: "#solution" },
   { name: "Product", href: "#product" },
   { name: "Specifications", href: "#specifications" },
@@ -15,6 +15,33 @@ const navItems = [
 ];
 
 const Header = () => {
+  useEffect(() => {
+    const links = document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]');
+
+    const handleClick = (e: MouseEvent) => {
+      e.preventDefault();
+
+      const anchor = e.currentTarget as HTMLAnchorElement;
+      const targetId = anchor.getAttribute("href");
+
+      if (!targetId) return;
+
+      const target = document.querySelector(targetId);
+      if (!target) return;
+
+      target.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    };
+
+    links.forEach((link) => link.addEventListener("click", handleClick));
+
+    return () => {
+      links.forEach((link) => link.removeEventListener("click", handleClick));
+    };
+  }, []);
+
   return (
     <motion.main
       initial={{ y: -60, opacity: 0 }}
@@ -29,7 +56,7 @@ const Header = () => {
           transition={{ type: "spring", stiffness: 300 }}
           className="flex items-center"
         >
-          <a href="#">
+          <a href="#home">
             <Image
               src="/zx-logo.webp"
               alt="ZX AeroSpace Logo"
