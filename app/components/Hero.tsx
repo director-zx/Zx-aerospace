@@ -107,9 +107,9 @@ export default function Hero() {
                       <div className="absolute w-[80%] h-[80%] bg-white/5 blur-[50px] rounded-full" />
 
                       <img
-                        src="/banner-one.png"
+                        src="/zx-propeller-1.webp"
                         alt="Propulsion"
-                        className="relative z-10 w-full  drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] max-sm:w-[80%]"
+                        className="relative z-10 w-full rounded-4xl drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] max-sm:w-[80%]"
                       />
                     </motion.div>
                   )}
@@ -131,7 +131,7 @@ export default function Hero() {
                       exit="exit"
                       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                     >
-                      <h1 className="text-5xl md:text-6xl leading-tight font-semibold text-white max-sm:text-2xl max-sm:pt-16">
+                      <h1 className="text-5xl md:text-6xl leading-tight font-semibold text-white lg:pr-8 max-sm:text-2xl max-sm:pt-16">
                         <span className="text-[#f09c18]">ZX-2480</span> Carbon
                         Fibre Propeller with Precision & Power
                       </h1>
@@ -170,9 +170,9 @@ export default function Hero() {
                     >
                       <div className="absolute w-[80%] h-[80%] bg-[#fff9f1]/90 blur-[0px] rounded-full max-sm:w-[50%] max-sm:h-[60%]" />
                       <img
-                        src="/banner-three.png"
+                        src="/zx-propeller-2.webp"
                         alt="System"
-                        className="relative z-10 w-full drop-shadow-[0_0_50px_rgba(255,255,255,0.15)] max-sm:w-[80%]"
+                        className="relative z-10 w-full rounded-4xl drop-shadow-[0_0_50px_rgba(255,255,255,0.15)] max-sm:w-[80%]"
                       />
                     </motion.div>
                   )}
@@ -233,9 +233,9 @@ export default function Hero() {
                     >
                       <div className="absolute w-[120%] h-[120%] bg-white/10 blur-[100px] rounded-full" />
                       <img
-                        src="/banner-two.png"
+                        src="/zx-propeller-3.webp"
                         alt="UAV"
-                        className="relative z-10 w-full  drop-shadow-[0_0_40px_rgba(255,255,255,0.1)] max-sm:w-[80%]"
+                        className="relative z-10 w-full rounded-4xl drop-shadow-[0_0_40px_rgba(255,255,255,0.1)] max-sm:w-[80%]"
                       />
                     </motion.div>
                   )}

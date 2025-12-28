@@ -61,7 +61,7 @@ const Technical = () => {
     },
     {
       label: "Weight",
-      value: "~115g Per Blade",
+      value: "~34g Per Blade",
       icon: <LiaWeightHangingSolid />,
     },
     {
