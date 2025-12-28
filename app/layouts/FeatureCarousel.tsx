@@ -23,7 +23,7 @@ const FeatureCarousel = () => {
       initial={{ opacity: 0, scale: 0.95 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1.2, ease: "easeOut" }}
-      className="w-full h-full rounded-[20px] overflow-hidden p-0"
+      className="w-full h-full rounded-[20px] overflow-hidden p-0 max-sm:h-auto"
     >
       <Swiper
         modules={[Autoplay, Pagination, EffectFade]}
@@ -45,7 +45,7 @@ const FeatureCarousel = () => {
             <img
               src={src}
               alt={`ZX Aerospace Feature ${index + 1}`}
-              className="w-full h-full rounded-[20px] object-cover object-center border border-gray-200"
+              className="w-full h-full rounded-[20px] object-cover object-center border border-gray-200 max-sm:object-contain max-sm:h-auto"
             />
           </SwiperSlide>
         ))}

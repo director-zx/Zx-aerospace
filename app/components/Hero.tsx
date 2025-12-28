@@ -100,7 +100,7 @@ export default function Hero() {
                       animate="animate"
                       exit="exit"
                       transition={{ duration: 1, ease: "easeOut" }}
-                      className="relative flex items-center justify-center"
+                      className="relative flex items-center justify-end max-sm:py-16 max-sm:rounded-3xl"
                     >
                       {/* White Smoke / Rounded Blur Background */}
                       <div className="absolute w-[120%] h-[120%] bg-white/10 blur-[100px] rounded-full animate-pulse" />
@@ -109,7 +109,7 @@ export default function Hero() {
                       <img
                         src="/zx-propeller-1.webp"
                         alt="Propulsion"
-                        className="relative z-10 w-full rounded-4xl drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] max-sm:w-[80%]"
+                        className="relative z-10 w-[90%] rounded-4xl drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] max-sm:w-full"
                       />
                     </motion.div>
                   )}
@@ -166,13 +166,13 @@ export default function Hero() {
                       animate="animate"
                       exit="exit"
                       transition={{ duration: 1, ease: "easeOut" }}
-                      className="relative flex items-center justify-center"
+                      className="relative flex items-center justify-end max-sm:py-16 max-sm:rounded-3xl"
                     >
                       <div className="absolute w-[80%] h-[80%] bg-[#fff9f1]/90 blur-[0px] rounded-full max-sm:w-[50%] max-sm:h-[60%]" />
                       <img
                         src="/zx-propeller-2.webp"
                         alt="System"
-                        className="relative z-10 w-full rounded-4xl drop-shadow-[0_0_50px_rgba(255,255,255,0.15)] max-sm:w-[80%]"
+                        className="relative z-10 w-[90%] rounded-4xl drop-shadow-[0_0_50px_rgba(255,255,255,0.15)] max-sm:w-full"
                       />
                     </motion.div>
                   )}
@@ -229,13 +229,13 @@ export default function Hero() {
                       animate="animate"
                       exit="exit"
                       transition={{ duration: 1, ease: "easeOut" }}
-                      className="relative flex items-center justify-center"
+                      className="relative flex items-center justify-end max-sm:py-16 max-sm:rounded-3xl"
                     >
                       <div className="absolute w-[120%] h-[120%] bg-white/10 blur-[100px] rounded-full" />
                       <img
                         src="/zx-propeller-3.webp"
                         alt="UAV"
-                        className="relative z-10 w-full rounded-4xl drop-shadow-[0_0_40px_rgba(255,255,255,0.1)] max-sm:w-[80%]"
+                        className="relative z-10 w-[90%] rounded-4xl drop-shadow-[0_0_40px_rgba(255,255,255,0.1)] max-sm:w-full"
                       />
                     </motion.div>
                   )}
