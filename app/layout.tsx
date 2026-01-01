@@ -3,6 +3,7 @@ import { DM_Sans, Inter } from "next/font/google";
 import "./globals.css";
 import LenisProvider from "@/app/layouts/LenisProvider";
 import { Toaster } from "react-hot-toast";
+import { Analytics } from "@vercel/analytics/next"
 
 
 const dmSans = DM_Sans({
@@ -32,6 +33,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} antialiased`} suppressHydrationWarning>
         <Toaster position="top-center" />
+        <Analytics />
         <LenisProvider>
           <div className={dmSans.className}>{children}</div>
         </LenisProvider>
